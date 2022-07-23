@@ -31,5 +31,10 @@ public class DinosaurGUI {
 
         settings.setVersion("1.0");
         settings.setTicksPerSecond(60); // check info : settings.setProfilingEnabled(true);
+
+        settings.setFontUI("ARCADECLASSIC.TTF");
+        settings.setFontText("ARCADECLASSIC.TTF");
+        settings.setFontGame("ARCADECLASSIC.TTF");
+        settings.setFontMono("ARCADECLASSIC.TTF");
     }
 }
