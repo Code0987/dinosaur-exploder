@@ -14,9 +14,8 @@ public class ScoreComponent extends Component  implements Score{
         entity.getViewComponent().clearChildren();
         Text scoreText = new Text("Score: "  + score.toString());
         scoreText.setFill(Color.GREEN);
-        scoreText.setFont(Font.font("Arial", 20));
+        scoreText.setFont(Font.font("ArcadeClassic", 20));
         entity.getViewComponent().addChild(scoreText);
-
     }
 
     @Override
